@@ -21,9 +21,11 @@ body {
     max-width: 700px;
   }
   .card-body {
+    width: 100%;
     padding: 40px;
   }
   #main{
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,6 +40,7 @@ body {
     margin-left: 220px;
   }
   .blockquote p{
+    width: 100%;
     font-size: 20px;
     color: rgb(255, 0, 119);
     font-family: "gil";
