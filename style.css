@@ -1,0 +1,44 @@
+@font-face {
+    font-family: gil;
+    src: url("./Gilroy-FREE/Gilroy-ExtraBold.otf");
+}
+@font-face {
+    font-family: gilb;
+    src: url("./Gilroy-FREE/Gilroy-Light.otf");
+}
+body {
+    background-color: rgb(255, 255, 226);
+    font-family: "gilb";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+
+    width: 80%;
+    max-width: 700px;
+  }
+  .card-body {
+    padding: 40px;
+  }
+  #main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn-primary {
+    outline: none;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    border: none;
+    background-color: rgb(65, 176, 228);
+    margin-left: 220px;
+  }
+  .blockquote p{
+    font-size: 20px;
+    color: rgb(255, 0, 119);
+    font-family: "gil";
+  }
